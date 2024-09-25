@@ -30,7 +30,7 @@ Python をインストール。インストール方法は[公式ドキュメン
 
 作成したモデルの性能は下図のようになった。
 
-<img src="https://github.com/user-attachments/assets/e48abb03-8e47-4cab-a51f-afcfcb29289b" width="500"><img src="https://github.com/user-attachments/assets/75b18731-97eb-4675-8b44-972502eb536b" width="500">
+<img src="https://github.com/user-attachments/assets/e48abb03-8e47-4cab-a51f-afcfcb29289b" width="400"><img src="https://github.com/user-attachments/assets/75b18731-97eb-4675-8b44-972502eb536b" width="400">
 
 横軸はepoch数、縦軸はaccuracyであり、左がNN、右がCNNの実行結果となっている。
 epochが大きくなるに従っていずれもaccuracyが大きくなっているが、NNでは0.8付近、CNNでは1.0付近に収束している。CNNでは畳み込みやPoolingなどを利用しているため性能が改善されていることがわかる。
