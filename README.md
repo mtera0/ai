@@ -1,5 +1,5 @@
 # ai
-NNを基礎とするAIについて理解するために作成。
+NNを基礎とするAIについて理解するために作成。本リポジトリは[ゼロから作る Deep Learning Pythonで学ぶディープラーニングの理論と実装](https://github.com/oreilly-japan/deep-learning-from-scratch), [ゼロから作るDeep Learning ❷ ―自然言語処理編](https://github.com/oreilly-japan/deep-learning-from-scratch-2)のコードをもとに作成している。
 
 ## cnn
 ### 1.プロジェクト概要
@@ -39,7 +39,7 @@ epochが大きくなるに従っていずれもaccuracyが大きくなってい�
 
 ## nlp
 ### 1.プロジェクト概要
-datasetとしてMNISTを利用したNNとCNNの精度比較。
+日本語から英語に翻訳する言語モデルをAttentionにより作成。datasetとして[無償配布の日本語・英語対訳コーパスのデータを綺麗にする](https://blog.statsbeginner.net/entry/2023/08/27/225542)に記載されているものを利用した。
 
 ### 2.主要技術
 
